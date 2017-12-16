@@ -30,16 +30,19 @@ TODO: A container for the vertical layout subviews, The vertical layout of multi
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'FPVerticalView/Classes/FPVerticalView.{h,m}','FPVerticalView/Classes/UIView+FPVertical.{h,m}'
-
-  s.subspec 'APPObserver' do |ss|
-      s.source_files = 'FPVerticalView/Classes/APPObserver.{h,m}'
+  s.subspec 'APPObserver' do |cs|
+      cs.source_files = 'FPVerticalView/Classes/APPObserver/*.*'
   end
+
+  s.subspec 'VerticalView' do |cs|
+    cs.source_files = 'FPVerticalView/Classes/VerticalView/*.*'
+    cs.dependency 'FPVerticalView/APPObserver'
+    cs.dependency 'Masonry'
+end
   # s.resource_bundles = {
   #   'FPVerticalView' => ['FPVerticalView/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'Masonry'
 end

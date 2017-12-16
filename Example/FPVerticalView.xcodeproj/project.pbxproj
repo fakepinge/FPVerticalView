@@ -23,9 +23,9 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		B85FF3291FE5759900897376 /* FPVerticalView.m in Sources */ = {isa = PBXBuildFile; fileRef = B85FF3281FE5759900897376 /* FPVerticalView.m */; };
-		B85FF32C1FE5763A00897376 /* UIView+FPVertical.m in Sources */ = {isa = PBXBuildFile; fileRef = B85FF32B1FE5763A00897376 /* UIView+FPVertical.m */; };
-		B85FF32F1FE5771000897376 /* APPObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B85FF32E1FE5770F00897376 /* APPObserver.m */; };
+		B810A4C81FE58D6E00BD46A4 /* APPObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B810A4C21FE58D6D00BD46A4 /* APPObserver.m */; };
+		B810A4C91FE58D6E00BD46A4 /* FPVerticalView.m in Sources */ = {isa = PBXBuildFile; fileRef = B810A4C51FE58D6D00BD46A4 /* FPVerticalView.m */; };
+		B810A4CA1FE58D6E00BD46A4 /* UIView+FPVertical.m in Sources */ = {isa = PBXBuildFile; fileRef = B810A4C71FE58D6D00BD46A4 /* UIView+FPVertical.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,12 +63,12 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A76153B82F61D9765A84AB6E /* Pods_FPVerticalView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FPVerticalView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB694A06A2767C2F9E552C8F /* FPVerticalView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FPVerticalView.podspec; path = ../FPVerticalView.podspec; sourceTree = "<group>"; };
-		B85FF3271FE5759900897376 /* FPVerticalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPVerticalView.h; sourceTree = "<group>"; };
-		B85FF3281FE5759900897376 /* FPVerticalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPVerticalView.m; sourceTree = "<group>"; };
-		B85FF32A1FE5763A00897376 /* UIView+FPVertical.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FPVertical.h"; sourceTree = "<group>"; };
-		B85FF32B1FE5763A00897376 /* UIView+FPVertical.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FPVertical.m"; sourceTree = "<group>"; };
-		B85FF32D1FE5770F00897376 /* APPObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPObserver.h; sourceTree = "<group>"; };
-		B85FF32E1FE5770F00897376 /* APPObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPObserver.m; sourceTree = "<group>"; };
+		B810A4C11FE58D6D00BD46A4 /* APPObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPObserver.h; sourceTree = "<group>"; };
+		B810A4C21FE58D6D00BD46A4 /* APPObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPObserver.m; sourceTree = "<group>"; };
+		B810A4C41FE58D6D00BD46A4 /* FPVerticalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPVerticalView.h; sourceTree = "<group>"; };
+		B810A4C51FE58D6D00BD46A4 /* FPVerticalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPVerticalView.m; sourceTree = "<group>"; };
+		B810A4C61FE58D6D00BD46A4 /* UIView+FPVertical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FPVertical.h"; sourceTree = "<group>"; };
+		B810A4C71FE58D6D00BD46A4 /* UIView+FPVertical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FPVertical.m"; sourceTree = "<group>"; };
 		C5A65506DDD7A653022270F0 /* Pods-FPVerticalView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FPVerticalView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FPVerticalView_Example/Pods-FPVerticalView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DA3FB1E2E39B18104356073A /* Pods-FPVerticalView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FPVerticalView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FPVerticalView_Example/Pods-FPVerticalView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E6164A4AB8A9E764C95DEE03 /* Pods_FPVerticalView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FPVerticalView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -200,34 +200,42 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		B810A4BF1FE58D6D00BD46A4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B810A4C01FE58D6D00BD46A4 /* APPObserver */,
+				B810A4C31FE58D6D00BD46A4 /* VerticalView */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B810A4C01FE58D6D00BD46A4 /* APPObserver */ = {
+			isa = PBXGroup;
+			children = (
+				B810A4C11FE58D6D00BD46A4 /* APPObserver.h */,
+				B810A4C21FE58D6D00BD46A4 /* APPObserver.m */,
+			);
+			path = APPObserver;
+			sourceTree = "<group>";
+		};
+		B810A4C31FE58D6D00BD46A4 /* VerticalView */ = {
+			isa = PBXGroup;
+			children = (
+				B810A4C41FE58D6D00BD46A4 /* FPVerticalView.h */,
+				B810A4C51FE58D6D00BD46A4 /* FPVerticalView.m */,
+				B810A4C61FE58D6D00BD46A4 /* UIView+FPVertical.h */,
+				B810A4C71FE58D6D00BD46A4 /* UIView+FPVertical.m */,
+			);
+			path = VerticalView;
+			sourceTree = "<group>";
+		};
 		B85FF31E1FE5755200897376 /* FPVerticalView */ = {
 			isa = PBXGroup;
 			children = (
-				B85FF31F1FE5755200897376 /* Assets */,
-				B85FF3211FE5755200897376 /* Classes */,
+				B810A4BF1FE58D6D00BD46A4 /* Classes */,
 			);
 			name = FPVerticalView;
 			path = ../FPVerticalView;
-			sourceTree = "<group>";
-		};
-		B85FF31F1FE5755200897376 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		B85FF3211FE5755200897376 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				B85FF32D1FE5770F00897376 /* APPObserver.h */,
-				B85FF32E1FE5770F00897376 /* APPObserver.m */,
-				B85FF32A1FE5763A00897376 /* UIView+FPVertical.h */,
-				B85FF32B1FE5763A00897376 /* UIView+FPVertical.m */,
-				B85FF3271FE5759900897376 /* FPVerticalView.h */,
-				B85FF3281FE5759900897376 /* FPVerticalView.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,11 +394,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B810A4C91FE58D6E00BD46A4 /* FPVerticalView.m in Sources */,
 				6003F59E195388D20070C39A /* FPAppDelegate.m in Sources */,
-				B85FF32F1FE5771000897376 /* APPObserver.m in Sources */,
+				B810A4CA1FE58D6E00BD46A4 /* UIView+FPVertical.m in Sources */,
+				B810A4C81FE58D6E00BD46A4 /* APPObserver.m in Sources */,
 				6003F5A7195388D20070C39A /* FPViewController.m in Sources */,
-				B85FF32C1FE5763A00897376 /* UIView+FPVertical.m in Sources */,
-				B85FF3291FE5759900897376 /* FPVerticalView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
