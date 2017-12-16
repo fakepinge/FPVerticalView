@@ -23,7 +23,9 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		C12AABCCF72A673270A8BEA0 /* Pods_FPVerticalView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76153B82F61D9765A84AB6E /* Pods_FPVerticalView_Tests.framework */; };
+		B85FF3291FE5759900897376 /* FPVerticalView.m in Sources */ = {isa = PBXBuildFile; fileRef = B85FF3281FE5759900897376 /* FPVerticalView.m */; };
+		B85FF32C1FE5763A00897376 /* UIView+FPVertical.m in Sources */ = {isa = PBXBuildFile; fileRef = B85FF32B1FE5763A00897376 /* UIView+FPVertical.m */; };
+		B85FF32F1FE5771000897376 /* APPObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B85FF32E1FE5770F00897376 /* APPObserver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0660AA0C2CB7CFB3AA64B86D /* Pods-FPVerticalView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FPVerticalView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FPVerticalView_Tests/Pods-FPVerticalView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FPVerticalView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FPVerticalView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,15 +59,20 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		77B21D011D974FB043742230 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		77B21D011D974FB043742230 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A5DE31F144CFEEAE8E3B91F1 /* Pods-FPVerticalView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FPVerticalView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FPVerticalView_Tests/Pods-FPVerticalView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A76153B82F61D9765A84AB6E /* Pods_FPVerticalView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FPVerticalView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB694A06A2767C2F9E552C8F /* FPVerticalView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FPVerticalView.podspec; path = ../FPVerticalView.podspec; sourceTree = "<group>"; };
+		AB694A06A2767C2F9E552C8F /* FPVerticalView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FPVerticalView.podspec; path = ../FPVerticalView.podspec; sourceTree = "<group>"; };
+		B85FF3271FE5759900897376 /* FPVerticalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPVerticalView.h; sourceTree = "<group>"; };
+		B85FF3281FE5759900897376 /* FPVerticalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPVerticalView.m; sourceTree = "<group>"; };
+		B85FF32A1FE5763A00897376 /* UIView+FPVertical.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FPVertical.h"; sourceTree = "<group>"; };
+		B85FF32B1FE5763A00897376 /* UIView+FPVertical.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FPVertical.m"; sourceTree = "<group>"; };
+		B85FF32D1FE5770F00897376 /* APPObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPObserver.h; sourceTree = "<group>"; };
+		B85FF32E1FE5770F00897376 /* APPObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPObserver.m; sourceTree = "<group>"; };
 		C5A65506DDD7A653022270F0 /* Pods-FPVerticalView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FPVerticalView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FPVerticalView_Example/Pods-FPVerticalView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DA3FB1E2E39B18104356073A /* Pods-FPVerticalView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FPVerticalView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FPVerticalView_Example/Pods-FPVerticalView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E6164A4AB8A9E764C95DEE03 /* Pods_FPVerticalView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FPVerticalView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F127B5010342A13EFC6FF83B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F127B5010342A13EFC6FF83B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +94,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				C12AABCCF72A673270A8BEA0 /* Pods_FPVerticalView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +105,6 @@
 			children = (
 				DA3FB1E2E39B18104356073A /* Pods-FPVerticalView_Example.debug.xcconfig */,
 				C5A65506DDD7A653022270F0 /* Pods-FPVerticalView_Example.release.xcconfig */,
-				A5DE31F144CFEEAE8E3B91F1 /* Pods-FPVerticalView_Tests.debug.xcconfig */,
-				0660AA0C2CB7CFB3AA64B86D /* Pods-FPVerticalView_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -109,6 +112,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				B85FF31E1FE5755200897376 /* FPVerticalView */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for FPVerticalView */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -196,6 +200,36 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		B85FF31E1FE5755200897376 /* FPVerticalView */ = {
+			isa = PBXGroup;
+			children = (
+				B85FF31F1FE5755200897376 /* Assets */,
+				B85FF3211FE5755200897376 /* Classes */,
+			);
+			name = FPVerticalView;
+			path = ../FPVerticalView;
+			sourceTree = "<group>";
+		};
+		B85FF31F1FE5755200897376 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B85FF3211FE5755200897376 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B85FF32D1FE5770F00897376 /* APPObserver.h */,
+				B85FF32E1FE5770F00897376 /* APPObserver.m */,
+				B85FF32A1FE5763A00897376 /* UIView+FPVertical.h */,
+				B85FF32B1FE5763A00897376 /* UIView+FPVertical.m */,
+				B85FF3271FE5759900897376 /* FPVerticalView.h */,
+				B85FF3281FE5759900897376 /* FPVerticalView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -223,12 +257,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "FPVerticalView_Tests" */;
 			buildPhases = (
-				2A442C3C535111A78B268B81 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				4B01D295BECB555E7142763E /* [CP] Embed Pods Frameworks */,
-				EBD0ADBDA74028EE092FF99E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -297,24 +328,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2A442C3C535111A78B268B81 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FPVerticalView_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		35B91DF1F82F49970DD0500B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -337,30 +350,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FPVerticalView_Example/Pods-FPVerticalView_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FPVerticalView/FPVerticalView.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FPVerticalView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FPVerticalView_Example/Pods-FPVerticalView_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4B01D295BECB555E7142763E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FPVerticalView_Tests/Pods-FPVerticalView_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BE7138C75BFCBEE859BA392C /* [CP] Check Pods Manifest.lock */ = {
@@ -381,21 +379,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EBD0ADBDA74028EE092FF99E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FPVerticalView_Tests/Pods-FPVerticalView_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -404,7 +387,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* FPAppDelegate.m in Sources */,
+				B85FF32F1FE5771000897376 /* APPObserver.m in Sources */,
 				6003F5A7195388D20070C39A /* FPViewController.m in Sources */,
+				B85FF32C1FE5763A00897376 /* UIView+FPVertical.m in Sources */,
+				B85FF3291FE5759900897376 /* FPVerticalView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,7 +474,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -521,7 +507,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -560,7 +546,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5DE31F144CFEEAE8E3B91F1 /* Pods-FPVerticalView_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -584,7 +569,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0660AA0C2CB7CFB3AA64B86D /* Pods-FPVerticalView_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

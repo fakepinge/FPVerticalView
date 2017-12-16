@@ -1,0 +1,22 @@
+{
+  "name": "FPVerticalView",
+  "version": "0.1.0",
+  "summary": "A short description of FPVerticalView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fakepinge@gmail.com/FPVerticalView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fakepinge@gmail.com": "fakepinge@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/fakepinge@gmail.com/FPVerticalView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FPVerticalView/Classes/**/*"
+}
