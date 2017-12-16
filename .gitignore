@@ -1,8 +1,20 @@
+<<<<<<< HEAD
 # OS X
 .DS_Store
 
 # Xcode
 build/
+=======
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+>>>>>>> c0bac188769b7e722a0fb21fa1e52a843338349b
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -12,6 +24,7 @@ build/
 *.perspectivev3
 !default.perspectivev3
 xcuserdata/
+<<<<<<< HEAD
 *.xccheckout
 profile
 *.moved-aside
