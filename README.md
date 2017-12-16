@@ -1,5 +1,4 @@
 # FPVerticalView
-<<<<<<< HEAD
 
 [![CI Status](http://img.shields.io/travis/fakepinge@gmail.com/FPVerticalView.svg?style=flat)](https://travis-ci.org/fakepinge@gmail.com/FPVerticalView)
 [![Version](https://img.shields.io/cocoapods/v/FPVerticalView.svg?style=flat)](http://cocoapods.org/pods/FPVerticalView)
@@ -23,11 +22,9 @@ pod 'FPVerticalView'
 
 ## Author
 
-fakepinge@gmail.com, fakepinge@gmail.com
+fakepinge, fakepinge@gmail.com
 
 ## License
 
 FPVerticalView is available under the MIT license. See the LICENSE file for more info.
-=======
 A container for the vertical layout subviews
->>>>>>> c0bac188769b7e722a0fb21fa1e52a843338349b
