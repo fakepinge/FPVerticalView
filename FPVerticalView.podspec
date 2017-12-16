@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FPVerticalView'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A container for the vertical layout subviews.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,8 @@ TODO: A container for the vertical layout subviews, The vertical layout of multi
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'FPVerticalView/Classes/FPVerticalView.{h,m}','FPVerticalView/Classes/UIView+FPVertical.{h,m}'
-  s.subsepc 'APPObserver' do |ss|
+
+  s.subspec 'APPObserver' do |ss|
       s.source_files = 'FPVerticalView/Classes/APPObserver.{h,m}'
   end
   # s.resource_bundles = {
