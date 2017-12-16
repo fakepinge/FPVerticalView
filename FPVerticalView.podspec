@@ -30,8 +30,10 @@ TODO: A container for the vertical layout subviews, The vertical layout of multi
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'FPVerticalView/Classes/**/*'
-
+  s.source_files = 'FPVerticalView/Classes/FPVerticalView.{h,m}','FPVerticalView/Classes/UIView+FPVertical.{h,m}'
+  s.subsepc 'APPObserver' do |ss|
+      s.source_files = 'FPVerticalView/Classes/APPObserver.{h,m}'
+  end
   # s.resource_bundles = {
   #   'FPVerticalView' => ['FPVerticalView/Assets/*.png']
   # }
