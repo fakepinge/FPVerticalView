@@ -75,8 +75,8 @@
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     if (!scrollView.bounces) return;
     if (!_topCloseBounces) return;
-    if (scrollView.contentOffset.y < self.frame.origin.y) {
-        scrollView.contentOffset = CGPointMake(scrollView.contentOffset.x, self.frame.origin.y);
+    if (scrollView.contentOffset.y < 0) {
+        scrollView.contentOffset = CGPointMake(scrollView.contentOffset.x, 0);
     }
 }
 
