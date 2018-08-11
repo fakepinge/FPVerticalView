@@ -1,7 +1,0 @@
-use_frameworks!
-
-target 'FPVerticalView_Example' do
-
-    pod 'Masonry'
-
-end
