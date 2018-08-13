@@ -9,6 +9,11 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Introduce
+
+这是一个垂直布局的容器，在容器里添加一组视图，容器里的子视图支持frame和约束两种布局方式，容器会根据子视图添加的顺序自动实现从上到下的布局，间隔统一，也可以针对每个子视图设置特殊的布局，这里你不需要关心子视图具体的位置，当你需要隐藏子视图，只需设置hidden属性容器会自动刷新布局并且处理间隔，当你需要改变子视图的宽度高度，只需修改视图的宽高，容器会自动刷新布局。
+
+
 Usage
 ==============
 ## base
