@@ -1,7 +1,8 @@
 use_frameworks!
 
 target 'FPVerticalView_Example' do
-  pod 'FPVerticalView', :path => '../'
+
+    pod 'Masonry'
 
   target 'FPVerticalView_Tests' do
     inherit! :search_paths
